@@ -92,3 +92,14 @@ print(cs_performance)
 #del does not show the removed element
 del cs_performance[4] 
 print(cs_performance)
+
+len(cs_performance)
+max(cs_performance)
+min(cs_performance)
+sum(cs_performance)
+
+#use remove function
+cs_performance.remove(87)
+print(cs_performance)
+
+
