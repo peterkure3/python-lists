@@ -70,3 +70,9 @@ print(cs_performance)
 # adding elements at hte end of the list
 cs_performance.append(87)
 print(cs_performance)
+
+# using extend function to add two lists
+cw_perf = [34,45,44,21]
+
+cs_performance.extend(cw_perf)
+print(cs_performance)
