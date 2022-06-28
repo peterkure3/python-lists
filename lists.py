@@ -76,3 +76,19 @@ cw_perf = [34,45,44,21]
 
 cs_performance.extend(cw_perf)
 print(cs_performance)
+
+#using the sort function to arrange from lowest to highest
+cs_performance.sort()
+print(cs_performance)
+
+# deleting an element from a list
+cs_performance.pop() #deletes an element from the end of the list
+print(cs_performance)
+
+cs_performance.pop(5) #removes from index 5
+print(cs_performance)
+
+#using del or remove, to delete an element from a list
+#del does not show the removed element
+del cs_performance[4] 
+print(cs_performance)
