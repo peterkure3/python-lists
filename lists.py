@@ -61,3 +61,8 @@ print(cs_performance[4:])
 
 print(cs_performance[3:6])
 
+print(cs_performance[:]) #this will print from the first index to the last index 
+
+# changing elements of the list using slices
+cs_performance[1:3] = [60,50]
+print(cs_performance)
